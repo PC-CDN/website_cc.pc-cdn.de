@@ -10,7 +10,7 @@ permalink: /:year/:month/:day/:title/index.html
 excerpt_separator: <!--more-->
 templateserverurl: https://template.pc-cdn.de
 themecolor: green
-themelogo: template.pc-cdn.de/assets/img/logo/green_logo.png
+themelogo: https://template.pc-cdn.de/assets/img/logo/green_logo.png
 dummyimage: overlay-pattern.png
 themeURI: none
 themeBGimage: 
