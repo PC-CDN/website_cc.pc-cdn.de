@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-{{ include showcookies.html }}
+{% include showcookies.html %}
