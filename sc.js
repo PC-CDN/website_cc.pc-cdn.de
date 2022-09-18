@@ -1,0 +1,1 @@
+function getCookieValue(a) { const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)'); return b ? b.pop() : ''; } document.write ("getCookieValue " + getCookieValue("cookiefirst-consent")); 
