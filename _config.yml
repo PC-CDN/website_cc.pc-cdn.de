@@ -10,11 +10,11 @@ permalink: /:year/:month/:day/:title/index.html
 excerpt_separator: <!--more-->
 templateserverurl: https://template.pc-cdn.de
 themecolor: green
+themelogo: template.pc-cdn.de/assets/img/logo/green_logo.png
 dummyimage: overlay-pattern.png
 themeURI: none
-themeBGimage: https://hausbau-blog.pfeiffer.world/assets/bg-images/haus.jpg
-GallerieDir: https://media.hausbau-blog.pfeiffer.world/assets/bildergalerien/
-hbbhomeurl: https://hausbau-blog.pfeiffer.world/
+themeBGimage: 
+GallerieDir: 
 livereload: true
 author: Christian Pfeiffer
 since: 2022
