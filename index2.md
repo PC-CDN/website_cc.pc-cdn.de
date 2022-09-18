@@ -1,6 +1,6 @@
 ---
 permalink: /index2.html
-title: Show Cookies
+title: Show Cookiez
 ---
 
 {% include showcookies.html %}
