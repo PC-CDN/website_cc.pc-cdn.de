@@ -1,4 +1,3 @@
-<script src="https://consent.cookiefirst.com/sites/pfeifferch.github.io-0bdbd2d4-1773-4593-af6c-4688095a7add/consent.js"></script>
 
 
 1 - alle:
