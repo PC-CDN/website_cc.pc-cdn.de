@@ -1,9 +1,9 @@
-document.write ("<hr> CF CONSENT"); 
+document.write (""); 
 
-function getCookieValue(a) { const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)'); return b ? b.pop() : ''; } document.write ("cookiefirst-consent: " + getCookieValue("cookiefirst-consent")); 
+function getCookieValue(a) { const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)'); return b ? b.pop() : ''; } document.write ("cookiefirst-consent: <p>" + getCookieValue("cookiefirst-consent") + "</p>"); 
 
-document.write ("<hr> CF ID"); 
+document.write ("<hr>"); 
 
-function getCookieValue(a) { const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)'); return b ? b.pop() : ''; } document.write ("cookiefirst-id: " + getCookieValue("cookiefirst-Id")); 
+function getCookieValue(a) { const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)'); return b ? b.pop() : ''; } document.write ("cookiefirst-id: <p>" + getCookieValue("cookiefirst-Id") + "</p>"); 
 
 
