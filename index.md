@@ -6,8 +6,8 @@ title: test
 <script type="text/plain" data-cookiefirst-category="necessary">  
  document.write('<script src="http://localhost:8080/cookies-js/necessary.js"></script>');</script>
 <script type="text/plain" data-cookiefirst-category="functional">
- document.write('<script src="http://localhost:8080/cookies-js/functional.js">');</script>
+ document.write('<script src="http://localhost:8080/cookies-js/functional.js"></script>');</script>
 <script type="text/plain" data-cookiefirst-category="performance">
- document.write('<script src="http://localhost:8080/cookies-js/performance.js">');</script>
+ document.write('<script src="http://localhost:8080/cookies-js/performance.js"></script>');</script>
 <script type="text/plain" data-cookiefirst-category="advertising">
- document.write('<script src="http://localhost:8080/cookies-js/advertising.js">');</script>
+ document.write('<script src="http://localhost:8080/cookies-js/advertising.js"></script>');</script>
