@@ -4,6 +4,6 @@ function getCookieValue(a) { const b = document.cookie.match('(^|;)\\s*' + a + '
 
 document.write ("<hr>"); 
 
-function getCookieValue(a) { const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)'); return b ? b.pop() : ''; } document.write ("cookiefirst-id: <p>" + getCookieValue("cookiefirst-Id") + "</p>"); 
+function getCookieValue(a) { const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)'); return b ? b.pop() : ''; } document.write ("cookiefirst-id: <p>" + getCookieValue("cookiefirst-id") + "</p>"); 
 
 
