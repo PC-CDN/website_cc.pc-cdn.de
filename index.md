@@ -1,6 +1,6 @@
 ---
 layout: default
-title: test lh
+title: test
 ---
 
 <script type="text/plain" data-cookiefirst-category="necessary">  
