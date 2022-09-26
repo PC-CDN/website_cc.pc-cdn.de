@@ -8,14 +8,14 @@ title: test lh
 
 
 <script type="text/plain" data-cookiefirst-category="necessary">  
- getScript("http://localhost:8080/cookies-js/necessary.js");
+ getScript('http://localhost:8080/cookies-js/necessary.js');
 </script>
 <script type="text/plain" data-cookiefirst-category="functional">
- getScript("http://localhost:8080/cookies-js/functional.js");
+ getScript('http://localhost:8080/cookies-js/functional.js');
 </script>
 <script type="text/plain" data-cookiefirst-category="performance">
- getScript("http://localhost:8080/cookies-js/performance.js");
+ getScript('http://localhost:8080/cookies-js/performance.js');
 </script>
 <script type="text/plain" data-cookiefirst-category="advertising">
- getScript("http://localhost:8080/cookies-js/advertising.js");
+ getScript('http://localhost:8080/cookies-js/advertising.js');
 </script>
