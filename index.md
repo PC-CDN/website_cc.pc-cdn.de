@@ -12,6 +12,3 @@ title: Cookie Consent-Content
 <script type="text/plain" data-cookiefirst-category="performance" src="https://cc.pc-cdn.de/i/cc.pc-cdn.de/performance.js"></script>
 <script type="text/plain" data-cookiefirst-category="advertising" src="https://cc.pc-cdn.de/i/cc.pc-cdn.de/advertising.js"></script>
 
-
-</body>
-</html> 
