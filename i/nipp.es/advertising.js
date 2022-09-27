@@ -24,28 +24,3 @@ document.getElementById("adsContent.2.mobile").innerHTML = '<iframe src="https
 document.getElementById("adsContent.2.desktop").innerHTML = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=26&l=ur1&category=de_piv&banner=1031ZXV21Q2E6TDPEZ02&f=ifr&linkID=3d7916d20f44975db97241323ec8ace9&t=nippes-21&tracking_id=nippes-21" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe></iframe>';
 
 
-document.getElementById("adsContent.3.mobile").innerHTML = <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- disposable-mailbox.eu -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4707755831661485"
-     data-ad-slot="9908021091"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>';
-
-
-document.getElementById("adsContent.3.desktop").innerHTML = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- disposable-mailbox.eu -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4707755831661485"
-     data-ad-slot="9908021091"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>';
-
