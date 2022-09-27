@@ -2,6 +2,11 @@
 layout: default 
 title: Welcome at C³
 ---
+<p id="demonecessary"></p>
+<p id="demofunctional"></p>
+<p id="demoperformance"></p>
+<p id="demoadvertising"></p>
+
 <script type="text/plain" data-cookiefirst-category="necessary" src="https://cc.pc-cdn.de/all/necessary.js"></script>
 <script type="text/plain" data-cookiefirst-category="functional" src="https://cc.pc-cdn.de/all/functional.js"></script>
 <script type="text/plain" data-cookiefirst-category="performance" src="https://cc.pc-cdn.de/all/performance.js"></script>
