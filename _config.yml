@@ -1,7 +1,7 @@
 remote_theme: PfeifferChPT/pc-cdn-template
-name: "Javascript Cookie Test"
-title: "Javascript Cookie Test"
-subtitle: "Kekse mit JS auslesen - Testseite"
+name: "PC-CDN: COOKIE CONSENT-CONTENT"
+title: "COOKIE CONSENT-CONTENT"
+subtitle: ""
 description: "" #metadescription
 markdown: kramdown
 highlighter: rouge # pygments or rouge or null
