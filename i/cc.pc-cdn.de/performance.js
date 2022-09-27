@@ -1,3 +1,4 @@
-text = "necessary Cookies are enabled.";
-document.getElementById("demonecessary").innerHTML = text;
+text = "performance Cookies are enabled.";
+document.getElementById("demoperformance").innerHTML = text;
+
 
