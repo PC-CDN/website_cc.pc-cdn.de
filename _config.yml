@@ -9,8 +9,8 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:year/:month/:day/:title/index.html
 excerpt_separator: <!--more-->
 templateserverurl: https://template.pc-cdn.de
-themecolor: green
-themelogo: https://template.pc-cdn.de/assets/img/logo/green_logo.png
+themecolor: dlt
+themelogo: https://template.pc-cdn.de/assets/img/logo/transparent_logo.png
 dummyimage: overlay-pattern.png
 themeURI: none
 themeBGimage: 
