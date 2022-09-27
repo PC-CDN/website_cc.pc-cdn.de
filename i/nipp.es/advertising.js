@@ -1,11 +1,11 @@
-text1m = '<span style="color:#FFF">ACE.1M</span>';
+text1m = 'ACE.1M';
 document.getElementById("adsContent.1.mobile").innerHTML = text1m;
 
-text1d = '<span style="color:#FFF">ACE.1D</span>';
+text1d = 'ACE.1D';
 document.getElementById("adsContent.1.desktop").innerHTML = text1d;
 
-text2m = '<span style="color:#FFF">ACE.2M</span>';
+text2m = 'ACE.2M';
 document.getElementById("adsContent.2.mobile").innerHTML = text2m;
 
-text2d = '<span style="color:#FFF">ACE.2D</span>';
+text2d = 'ACE.2D';
 document.getElementById("adsContent.2.desktop").innerHTML = text2d;
