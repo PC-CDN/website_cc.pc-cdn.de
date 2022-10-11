@@ -55,11 +55,14 @@ function RandArray(array){
 var rValueD = RandArray(myArrayD);
 
 
-if (document.getElementById('adsContent.mobile')) {
-document.getElementById("adsContent.mobile").innerHTML = rValueM;
-} 
 
-if (document.getElementById('adsContent.desktop')) {
-document.getElementById("adsContent.desktop").innerHTML = rValueD;
-} 
 
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  if (document.getElementById('adsContent')) {
+document.getElementById("adsContent").innerHTML = rValueM;
+} 
+}else{
+  if (document.getElementById('adsContent')) {
+document.getElementById("adsContent").innerHTML = rValueD;
+} 
+}
