@@ -4,7 +4,7 @@
 2 = amzn Prime Vifeo
 3 = amzn generic
 4 = amzn Audible
-4 = amzn prime
+5 = amzn prime
 */
 
 
@@ -35,106 +35,31 @@ text10d = '';
 text11d = '';
 
 
-/* 00 */
-if (document.getElementById('adsContent.0.mobile')) {
-document.getElementById("adsContent.0.mobile").innerHTML = text0m;
-} 
-if (document.getElementById('adsContent.0.desktop')) {
-document.getElementById("adsContent.0.desktop").innerHTML = text0d;
+var myArrayM = [text1m, text2m, text3m, text4m, text5m ];
+var myArrayD = [text1d, text2d, text3d, text4d, text5d ];
+
+
+function RandArray(array){
+ var rand = Math.random()*array.length | 0;
+ var rValueM = array[rand];
+ return rValueM;
+ } 
+var rValueM = RandArray(myArrayM);
+
+
+function RandArray(array){
+ var rand = Math.random()*array.length | 0;
+ var rValueD = array[rand];
+ return rValueD;
+ } 
+var rValueD = RandArray(myArrayD);
+
+
+if (document.getElementById('adsContent.mobile')) {
+document.getElementById("adsContent.mobile").innerHTML = rValueM;
 } 
 
-/* 01 */
-if (document.getElementById('adsContent.1.mobile')) {
-document.getElementById("adsContent.1.mobile").innerHTML = text1m;
-} 
-if (document.getElementById('adsContent.1.desktop')) {
-document.getElementById("adsContent.1.desktop").innerHTML = text1d;
+if (document.getElementById('adsContent.desktop')) {
+document.getElementById("adsContent.desktop").innerHTML = rValueD;
 } 
 
-/* 02 */
-if (document.getElementById('adsContent.2.mobile')) {
-document.getElementById("adsContent.2.mobile").innerHTML = text2m;
-} 
-if (document.getElementById('adsContent.2.desktop')) {
-document.getElementById("adsContent.2.desktop").innerHTML = text2d;
-} 
-
-/* 03 */
-if (document.getElementById('adsContent.3.mobile')) {
-document.getElementById("adsContent.3.mobile").innerHTML = text3m;
-} 
-if (document.getElementById('adsContent.3.desktop')) {
-document.getElementById("adsContent.3.desktop").innerHTML = text3d;
-} 
-
-/* 04 */
-if (document.getElementById('adsContent.4.mobile')) {
-document.getElementById("adsContent.4.mobile").innerHTML = text4m;
-} 
-if (document.getElementById('adsContent.4.desktop')) {
-document.getElementById("adsContent.4.desktop").innerHTML = text4d;
-} 
-
-/* 05 */
-if (document.getElementById('adsContent.5.mobile')) {
-document.getElementById("adsContent.5.mobile").innerHTML = text5m;
-} 
-if (document.getElementById('adsContent.5.desktop')) {
-document.getElementById("adsContent.5.desktop").innerHTML = text5d;
-} 
-
-/* 06 */
-if (document.getElementById('adsContent.6.mobile')) {
-document.getElementById("adsContent.6.mobile").innerHTML = text6m;
-} 
-if (document.getElementById('adsContent.6.desktop')) {
-document.getElementById("adsContent.6.desktop").innerHTML = text6d;
-} 
-
-/* 07 */
-if (document.getElementById('adsContent.7.mobile')) {
-document.getElementById("adsContent.7.mobile").innerHTML = text7m;
-} 
-if (document.getElementById('adsContent.7.desktop')) {
-document.getElementById("adsContent.7.desktop").innerHTML = text7d;
-} 
-
-/* 08 */
-if (document.getElementById('adsContent.8.mobile')) {
-document.getElementById("adsContent.8.mobile").innerHTML = text8m;
-} 
-if (document.getElementById('adsContent.8.desktop')) {
-document.getElementById("adsContent.8.desktop").innerHTML = text8d;
-} 
-
-/* 09 */
-if (document.getElementById('adsContent.9.mobile')) {
-document.getElementById("adsContent.9.mobile").innerHTML = text9m;
-} 
-if (document.getElementById('adsContent.9.desktop')) {
-document.getElementById("adsContent.9.desktop").innerHTML = text9d;
-} 
-
-/* 10 */
-if (document.getElementById('adsContent.10.mobile')) {
-document.getElementById("adsContent.10.mobile").innerHTML = text10m;
-} 
-if (document.getElementById('adsContent.10.desktop')) {
-document.getElementById("adsContent.10.desktop").innerHTML = text10d;
-} 
-
-/* 11 */
-if (document.getElementById('adsContent.11.mobile')) {
-document.getElementById("adsContent.11.mobile").innerHTML = text11m;
-} 
-if (document.getElementById('adsContent.11.desktop')) {
-document.getElementById("adsContent.11.desktop").innerHTML = text11d;
-} 
-
-/* 12 */
-if (document.getElementById('adsContent.12.mobile')) {
-document.getElementById("adsContent.12.mobile").innerHTML = text12m;
-} 
-if (document.getElementById('adsContent.12.desktop')) {
-document.getElementById("adsContent.12.desktop").innerHTML = text12d;
-} 
