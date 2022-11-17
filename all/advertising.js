@@ -36,8 +36,8 @@ text10d = '';
 text11d = '';
 
 
-var myArrayM = [text6m, text1m, text2m, text6m, text3m, text4m, text5m, text6m ];
-var myArrayD = [text6d, text1d, text2d, text6d, text3d, text4d, text5d, text6d ];
+var myArrayM = [text6m, text1m, text2m, text6m, text3m, text4m, text1m, text6m ];
+var myArrayD = [text6d, text1d, text2d, text6d, text3d, text4d, text1d, text6d ];
 
 
 function RandArray(array){
