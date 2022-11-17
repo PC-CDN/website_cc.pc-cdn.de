@@ -5,6 +5,7 @@
 3 = amzn generic
 4 = amzn Audible
 5 = amzn prime
+6 = amzn blfriday 
 */
 
 
@@ -14,7 +15,7 @@ text2m = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=42&l=ur1&ca
 text3m = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=42&l=ur1&category=amazongeneric&banner=1KQQZNJRVEBT2N0SAP82&f=ifr&linkID=fa8d5000e6d18da70152a3d7df6be2f2&t=nippes-21&tracking_id=nipped-21" width="234" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>';
 text4m = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=42&l=ur1&category=audible&banner=1400ZA2TDZEWV86FV202&f=ifr&linkID=25053bf9cb069e589cf6eb2ae4e25547&t=nippes-21&tracking_id=nippes-21" width="234" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>';
 text5m = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=42&l=ur1&category=peas&banner=1R6Q3YQ1AT8F1A23C3G2&f=ifr&linkID=5275d0d22cd9ef28ea5d8de867c6daac&t=nippes-21&tracking_id=nippes-21" width="234" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>';
-text6m = '';
+text6m = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=42&l=ur1&category=blackfriday&banner=1R6Q3YQ1AT8F1A23C3G2&f=ifr&linkID=5275d0d22cd9ef28ea5d8de867c6daac&t=nippes-21&tracking_id=nippes-21" width="234" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>';
 text7m = '';
 text8m = '';
 text9m = '';
@@ -27,7 +28,7 @@ text2d = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=26&l=ur1&ca
 text3d = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=13&l=ur1&category=amazongeneric&banner=0HKWS4G1V016X4K0S2R2&f=ifr&linkID=4c46c0d6931705c68ffaf621003da67c&t=nippes-21&tracking_id=nippes-21" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>';
 text4d = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=13&l=ur1&category=audible&banner=0Y6RHT2ZHBXVVVNG4KR2&f=ifr&linkID=d0642ffb6aefcfb73564816f361e2499&t=nippes-21&tracking_id=nippes-21" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>';
 text5d = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=13&l=ur1&category=peas&banner=13E5KA16TK5XJVC1Z5G2&f=ifr&linkID=1c9300fbcae46f1586acde640ec651d5&t=nippes-21&tracking_id=nippes-21" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>';
-text6d = '';
+text6d = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=13&l=ur1&category=blackfriday&banner=13E5KA16TK5XJVC1Z5G2&f=ifr&linkID=1c9300fbcae46f1586acde640ec651d5&t=nippes-21&tracking_id=nippes-21" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>';
 text7d = '';
 text8d = '';
 text9d = '';
@@ -35,8 +36,8 @@ text10d = '';
 text11d = '';
 
 
-var myArrayM = [text1m, text2m, text3m, text4m, text5m ];
-var myArrayD = [text1d, text2d, text3d, text4d, text5d ];
+var myArrayM = [text6m, text1m, text2m, text6m, text3m, text4m, text5m, text6m ];
+var myArrayD = [text6d, text1d, text2d, text6d, text3d, text4d, text5d, text6d ];
 
 
 function RandArray(array){
