@@ -8,8 +8,9 @@
 6 = amzn blfriday 
 */
 
-amznTrackingID = "nippes-21";
-
+if (typeof amznTrackingID == 'undefined') {
+   amznTrackingID = "pc-cdn-21";
+}
 
 text0m = '<img src="https://template.pc-cdn.de/assets/bg-images/onepixel-transparent.png" width="320" height="50" border="0">';
 text1m = '<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=42&l=ez&f=ifr&linkID=4bea22640fcbe2f017b7864de3f91b12&t='+amznTrackingID+'&tracking_id='+amznTrackingID+'" width="234" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>';
