@@ -17,7 +17,6 @@ ulbamzntridnumber = "20";
 {
 ulbcontinent = "undefined";
 ulbcountry = "undefined";
-ulbamzntridnumber = "20";
 }
 /*
 if (userLang == "")
