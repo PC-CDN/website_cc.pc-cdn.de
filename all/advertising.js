@@ -68,11 +68,11 @@ var rValueD = RandArray(myArrayD);
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   if (document.getElementById('adsContent')) {
-document.getElementById("adsContent").innerHTML = rValueM;
+document.getElementById("adsContent").innerHTML = rValueM + ulbamzndom + ulbamzntridnumber;
 } 
 }else{
   if (document.getElementById('adsContent')) {
-document.getElementById("adsContent").innerHTML = rValueD;
+document.getElementById("adsContent").innerHTML = rValueD + ulbamzndom + ulbamzntridnumber;
 } 
 }
 
