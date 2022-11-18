@@ -7,9 +7,11 @@
 5 = amzn prime
 6 = amzn blfriday 
 */
-
+if (typeof ulbamzntridnumber == 'undefined') {
+   ulbamzntridnumber = "21";
+}
 if (typeof amznTrackingID == 'undefined') {
-   amznTrackingID = "pc-cdn-21";
+   amznTrackingID = "pc-cdn"+"-"+ulbamzntridnumber;
 }
 
 text0m = '<img src="https://template.pc-cdn.de/assets/bg-images/onepixel-transparent.png" width="320" height="50" border="0">';
