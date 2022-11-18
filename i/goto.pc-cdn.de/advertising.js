@@ -1,1 +1,1 @@
-amznTrackingID = "g2.pc-cdn-21";
+amznTrackingID = "g2.pc-cdn";
