@@ -3,6 +3,11 @@ if (userLang == "de-DE")
 ulbcontinent = "Europa";
 ulbcountry = "Deutschland";
 ulbamzntridnumber = "21";
+} else if (userLang == "de")
+{
+ulbcontinent = "Europa";
+ulbcountry = "undefined";
+ulbamzntridnumber = "21";
 } else if (userLang == "en-US")
 {
 ulbcontinent = "Nordamerika";
