@@ -8,7 +8,7 @@
 6 = amzn blfriday 
 */
 
-amznTrackingID = "c84fh-21";
+amznTrackingID = "nippes-21";
 
 
 text0m = '<img src="https://template.pc-cdn.de/assets/bg-images/onepixel-transparent.png" width="320" height="50" border="0">';
