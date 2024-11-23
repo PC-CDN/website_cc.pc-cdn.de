@@ -1,1 +1,1 @@
-amznTrackingID = "nipp.es-21"
+amznTrackingID = "nipp.es"
